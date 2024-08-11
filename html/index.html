@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Hub.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Study Hub with Rustam</h1>
+        <h2>Explor down sites for study</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Study Hub with Rustam</h2>
+        <p>Your one-stop place for learning and quizzes.</p>
+    </section>
+
+    <section id="resources">
+        <h2>Study Resources</h2>
+        <ul>
+            <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a></li>
+            <li><a href="https://www.coursera.org" target="_blank">Coursera</a></li>
+            <li><a href="https://www.edx.org" target="_blank">edX</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>coding resource</h2>
+        <ul>
+            <li><a href="https://www.codewithharry.com" target="_main">Code with Harry-free courses</a></li>
+            <li><a href="https://www.apnacollege.in" target="_blank">Apna college-paid course</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>maths quiz resource</h2>
+        <li><a href="https://www.w3schools.com/quiztest/quiztest.asp?qtest=MATH" target="_blank">Some maths quiz for free</a></li>
+
+    </section>
+
+    <section id="quiz">
+        <h2>Interactive Quiz</h2>
+        <form id="quiz-form">
+            <p>1. What is the capital of France?</p>
+            <label><input type="radio" name="q1" value="a"> Berlin</label><br>
+            <label><input type="radio" name="q1" value="b"> Madrid</label><br>
+            <label><input type="radio" name="q1" value="c"> Paris</label><br>
+            <label><input type="radio" name="q1" value="d"> Rome</label><br>
+
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+        <div id="quiz-result"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Study Hub with Rustam</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
